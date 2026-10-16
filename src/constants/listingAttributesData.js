@@ -1,0 +1,3268 @@
+export const listingAttributesData = ﻿{
+    "vehicles\/cars": [
+        {
+            "key": "make",
+            "label": "Make",
+            "type": "select",
+            "options": [
+                "Toyota",
+                "Honda",
+                "Suzuki",
+                "Hyundai",
+                "KIA",
+                "Changan",
+                "Nissan",
+                "MG",
+                "Other"
+            ]
+        },
+        {
+            "key": "model",
+            "label": "Model",
+            "type": "text"
+        },
+        {
+            "key": "year",
+            "label": "Year",
+            "type": "number"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "radio",
+            "options": [
+                "New",
+                "Used"
+            ]
+        },
+        {
+            "key": "km_driven",
+            "label": "KM Driven",
+            "type": "number"
+        },
+        {
+            "key": "fuel",
+            "label": "Fuel",
+            "type": "select",
+            "options": [
+                "Petrol",
+                "Diesel",
+                "Hybrid",
+                "Electric",
+                "CNG"
+            ]
+        },
+        {
+            "key": "transmission",
+            "label": "Transmission",
+            "type": "radio",
+            "options": [
+                "Automatic",
+                "Manual"
+            ]
+        },
+        {
+            "key": "color",
+            "label": "Color",
+            "type": "select",
+            "options": [
+                "White",
+                "Black",
+                "Silver",
+                "Grey",
+                "Blue",
+                "Red",
+                "Other"
+            ]
+        },
+        {
+            "key": "seats",
+            "label": "Seats",
+            "type": "number"
+        },
+        {
+            "key": "features",
+            "label": "Features",
+            "type": "checkbox",
+            "options": [
+                "ABS",
+                "Airbags",
+                "Alloy Rims",
+                "CD Player",
+                "Android Screen",
+                "Sunroof",
+                "Cruise Control",
+                "Keyless Entry",
+                "Back Camera"
+            ]
+        },
+        {
+            "key": "number_of_owners",
+            "label": "Number of Owners",
+            "type": "select",
+            "options": [
+                "1st Owner",
+                "2nd Owner",
+                "3rd Owner",
+                "4th Owner or more"
+            ]
+        },
+        {
+            "key": "registration_city",
+            "label": "Registration City",
+            "type": "select",
+            "options": [
+                "Islamabad",
+                "Lahore",
+                "Karachi",
+                "Rawalpindi",
+                "Peshawar",
+                "Unregistered",
+                "Other"
+            ]
+        },
+        {
+            "key": "car_documents",
+            "label": "Car Documents",
+            "type": "radio",
+            "options": [
+                "Original",
+                "Duplicate"
+            ]
+        },
+        {
+            "key": "assembly",
+            "label": "Assembly",
+            "type": "radio",
+            "options": [
+                "Local",
+                "Imported"
+            ]
+        }
+    ],
+    "vehicles\/car-care\/shampoos": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Ceramic Shampoo",
+                "Snow Foam Shampoo",
+                "Wash & Wax Shampoo",
+                "Standard Shampoo"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/car-care\/pressure-washers": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/car-care\/compound-polishes": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Polishing Compound",
+                "Rubbing Compound"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/car-care\/cleaners": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Interior Cleaner",
+                "Glass Cleaner",
+                "Tyre & Wheel Cleaner",
+                "All Purpose Cleaner"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/car-care\/microfiber-cloths": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/car-care\/polishes": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/car-care\/covers": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Microfiber",
+                "Parachute",
+                "Waterproof",
+                "Universal"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/car-care\/air-fresheners": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Gel Air Fresheners",
+                "Hangings",
+                "Spray Air Freshener",
+                "Vent Clips"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/car-care\/waxes": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Paste Wax",
+                "Liquid Wax",
+                "Spray Wax"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/car-care\/pads-sponges-brushes": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Foam Applicator",
+                "Wash Mitt",
+                "Detailing Brush",
+                "Wheel Brush"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/car-care\/ceramic-coatings": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "radio",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "vehicles\/car-care\/other-car-care": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "radio",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "vehicles\/car-care\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/car-accessories\/tools-gadgets": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/car-accessories\/safety-security": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Steering Lock",
+                "Tracker",
+                "Alarm System",
+                "Dash Cam"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/car-accessories\/interior": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Seat Covers",
+                "Floor Mats",
+                "Steering Covers",
+                "Sunshades"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/car-accessories\/exterior": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Spoilers",
+                "Body Kits",
+                "Door Visors",
+                "Chrome Accessories"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/car-accessories\/audio-multimedia": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Android Panels",
+                "Speakers",
+                "Amplifiers",
+                "Subwoofers"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/car-accessories\/paints-primers-tools": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/car-accessories\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        }
+    ],
+    "vehicles\/spare-parts\/batteries": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Acid Batteries",
+                "Dry Batteries",
+                "Hybrid Batteries"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/spare-parts\/mirrors": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Blind Spot Mirror",
+                "Rearview Mirror",
+                "Side Mirror"
+            ]
+        }
+    ],
+    "vehicles\/spare-parts\/wipers": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Frame Wiper",
+                "Silicone Wiper",
+                "Hybrid Wiper"
+            ]
+        }
+    ],
+    "vehicles\/spare-parts\/tyres": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/spare-parts\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        }
+    ],
+    "vehicles\/oil-lubricants\/engine-oil": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Mineral",
+                "Semi-Synthetic",
+                "Fully Synthetic"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/oil-lubricants\/gear-oil": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Differential Oil",
+                "Manual Gear Oil",
+                "Automatic ATF",
+                "Other"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/oil-lubricants\/coolants": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/oil-lubricants\/cvtf-oil": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/oil-lubricants\/fluids-flushes": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/oil-lubricants\/brake-oil": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "DOT 3",
+                "DOT 4",
+                "DOT 5.1"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/oil-lubricants\/fuel-additives": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Octane Booster",
+                "Injector Cleaner"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/oil-lubricants\/oil-additives": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/oil-lubricants\/multipurpose-grease": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/oil-lubricants\/chain-lubes-cleaners": [
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/oil-lubricants\/solvents": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/oil-lubricants\/adhesives": [
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/oil-lubricants\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "vehicles\/buses-vans-trucks": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Buses",
+                "Vans",
+                "Trucks",
+                "Pickups",
+                "Coasters"
+            ]
+        },
+        {
+            "key": "year",
+            "label": "Year",
+            "type": "number"
+        },
+        {
+            "key": "km_driven",
+            "label": "KM Driven",
+            "type": "number"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "radio",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "vehicles\/rickshaw-chingchi": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Auto Rickshaw",
+                "Loader Rickshaw",
+                "Chingchi",
+                "Electric Rickshaw"
+            ]
+        },
+        {
+            "key": "year",
+            "label": "Year",
+            "type": "number"
+        },
+        {
+            "key": "km_driven",
+            "label": "KM Driven",
+            "type": "number"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "radio",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "vehicles\/tractors-trailers": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Tractors",
+                "Trailers",
+                "Harvesters",
+                "Implements"
+            ]
+        },
+        {
+            "key": "year",
+            "label": "Year",
+            "type": "number"
+        },
+        {
+            "key": "km_driven",
+            "label": "KM Driven",
+            "type": "number"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "radio",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "vehicles\/boats": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Speedboat",
+                "Fishing Boat",
+                "Jet Ski",
+                "Other"
+            ]
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "radio",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "vehicles\/other-vehicles": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "radio",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "vehicles\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "radio",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "property-for-sale\/land-plots": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Residential Plot",
+                "Commercial Plot",
+                "Agricultural Land",
+                "Industrial Land",
+                "Plot File"
+            ]
+        },
+        {
+            "key": "area_unit",
+            "label": "Area Unit",
+            "type": "select",
+            "options": [
+                "Marla",
+                "Kanal",
+                "Sq. Feet",
+                "Sq. Yards"
+            ]
+        },
+        {
+            "key": "area",
+            "label": "Area",
+            "type": "number"
+        },
+        {
+            "key": "features",
+            "label": "Features",
+            "type": "checkbox",
+            "options": [
+                "Possession",
+                "Corner",
+                "Park Facing",
+                "Disputed Free",
+                "Balloted",
+                "Boundary Wall"
+            ]
+        }
+    ],
+    "property-for-sale\/houses": [
+        {
+            "key": "bedrooms",
+            "label": "Bedrooms",
+            "type": "select",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "6+"
+            ]
+        },
+        {
+            "key": "bathrooms",
+            "label": "Bathrooms",
+            "type": "select",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "6+"
+            ]
+        },
+        {
+            "key": "construction_state",
+            "label": "Construction State",
+            "type": "radio",
+            "options": [
+                "Grey Structure",
+                "Finished"
+            ]
+        },
+        {
+            "key": "area_unit",
+            "label": "Area Unit",
+            "type": "select",
+            "options": [
+                "Marla",
+                "Kanal",
+                "Sq. Feet",
+                "Sq. Yards"
+            ]
+        },
+        {
+            "key": "area",
+            "label": "Area",
+            "type": "number"
+        },
+        {
+            "key": "features",
+            "label": "Features",
+            "type": "checkbox",
+            "options": [
+                "Gas",
+                "Water",
+                "Electricity",
+                "Servant Quarter",
+                "Kitchen",
+                "Drawing Room",
+                "Dining Room"
+            ]
+        }
+    ],
+    "property-for-sale\/apartments-flats": [
+        {
+            "key": "furnished",
+            "label": "Furnished",
+            "type": "radio",
+            "options": [
+                "Furnished",
+                "Unfurnished"
+            ]
+        },
+        {
+            "key": "bedrooms",
+            "label": "Bedrooms",
+            "type": "select",
+            "options": [
+                "Studio",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5+"
+            ]
+        },
+        {
+            "key": "bathrooms",
+            "label": "Bathrooms",
+            "type": "select",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5+"
+            ]
+        },
+        {
+            "key": "floor_level",
+            "label": "Floor Level",
+            "type": "select",
+            "options": [
+                "Ground Floor",
+                "1st Floor",
+                "2nd Floor",
+                "3rd Floor",
+                "4th Floor & Above",
+                "Penthouse"
+            ]
+        },
+        {
+            "key": "area_unit",
+            "label": "Area Unit",
+            "type": "select",
+            "options": [
+                "Marla",
+                "Kanal",
+                "Sq. Feet",
+                "Sq. Yards"
+            ]
+        },
+        {
+            "key": "area",
+            "label": "Area",
+            "type": "number"
+        },
+        {
+            "key": "features",
+            "label": "Features",
+            "type": "checkbox",
+            "options": [
+                "Elevator",
+                "Standby Generator",
+                "Balcony",
+                "Covered Parking",
+                "Maintenance Staff"
+            ]
+        }
+    ],
+    "property-for-sale\/shops-offices-commercial-space": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Shop",
+                "Office",
+                "Commercial Plaza",
+                "Warehouse",
+                "Factory"
+            ]
+        },
+        {
+            "key": "floor_level",
+            "label": "Floor Level",
+            "type": "select",
+            "options": [
+                "Basement",
+                "Ground Floor",
+                "1st Floor",
+                "2nd Floor",
+                "Mezzanine",
+                "3rd Floor & Above"
+            ]
+        },
+        {
+            "key": "area_unit",
+            "label": "Area Unit",
+            "type": "select",
+            "options": [
+                "Marla",
+                "Kanal",
+                "Sq. Feet",
+                "Sq. Yards"
+            ]
+        },
+        {
+            "key": "bathrooms",
+            "label": "Bathrooms",
+            "type": "select",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5+"
+            ]
+        },
+        {
+            "key": "floor_level",
+            "label": "Floor Level",
+            "type": "select",
+            "options": [
+                "Upper Portion",
+                "Lower Portion",
+                "Basement",
+                "Mezzanine"
+            ]
+        },
+        {
+            "key": "area_unit",
+            "label": "Area Unit",
+            "type": "select",
+            "options": [
+                "Marla",
+                "Kanal",
+                "Sq. Feet",
+                "Sq. Yards"
+            ]
+        },
+        {
+            "key": "area",
+            "label": "Area",
+            "type": "number"
+        },
+        {
+            "key": "features",
+            "label": "Features",
+            "type": "checkbox",
+            "options": [
+                "Separate Gas Meter",
+                "Separate Electricity Meter",
+                "Water Supply"
+            ]
+        }
+    ],
+    "property-for-sale\/*": [
+        {
+            "key": "area_unit",
+            "label": "Area Unit",
+            "type": "select",
+            "options": [
+                "Marla",
+                "Kanal",
+                "Sq. Feet",
+                "Sq. Yards"
+            ]
+        },
+        {
+            "key": "area",
+            "label": "Area",
+            "type": "number"
+        }
+    ],
+    "property-for-rent\/houses": [
+        {
+            "key": "furnished",
+            "label": "Furnished",
+            "type": "radio",
+            "options": [
+                "Furnished",
+                "Unfurnished"
+            ]
+        },
+        {
+            "key": "bedrooms",
+            "label": "Bedrooms",
+            "type": "select",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6+"
+            ]
+        },
+        {
+            "key": "bathrooms",
+            "label": "Bathrooms",
+            "type": "select",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6+"
+            ]
+        },
+        {
+            "key": "storeys",
+            "label": "No. of Storeys",
+            "type": "select",
+            "options": [
+                "Single Storey",
+                "Double Storey",
+                "Triple Storey"
+            ]
+        },
+        {
+            "key": "construction_state",
+            "label": "Construction State",
+            "type": "radio",
+            "options": [
+                "Finished",
+                "Grey Structure"
+            ]
+        },
+        {
+            "key": "area_unit",
+            "label": "Area Unit",
+            "type": "select",
+            "options": [
+                "Marla",
+                "Kanal",
+                "Sq. Feet",
+                "Sq. Yards"
+            ]
+        },
+        {
+            "key": "area",
+            "label": "Area",
+            "type": "number"
+        },
+        {
+            "key": "features",
+            "label": "Features",
+            "type": "checkbox",
+            "options": [
+                "Gas",
+                "Water",
+                "Electricity",
+                "Servant Quarter",
+                "Parking"
+            ]
+        }
+    ],
+    "property-for-rent\/apartments-flats": [
+        {
+            "key": "furnished",
+            "label": "Furnished",
+            "type": "radio",
+            "options": [
+                "Furnished",
+                "Unfurnished"
+            ]
+        },
+        {
+            "key": "bedrooms",
+            "label": "Bedrooms",
+            "type": "select",
+            "options": [
+                "Studio",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5+"
+            ]
+        },
+        {
+            "key": "bathrooms",
+            "label": "Bathrooms",
+            "type": "select",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5+"
+            ]
+        },
+        {
+            "key": "floor_level",
+            "label": "Floor Level",
+            "type": "select",
+            "options": [
+                "Ground Floor",
+                "1st Floor",
+                "2nd Floor",
+                "3rd Floor",
+                "4th Floor & Above",
+                "Penthouse"
+            ]
+        },
+        {
+            "key": "area",
+            "label": "Area",
+            "type": "number"
+        },
+        {
+            "key": "features",
+            "label": "Features",
+            "type": "checkbox",
+            "options": [
+                "Elevator",
+                "Standby Generator",
+                "Balcony",
+                "Covered Parking"
+            ]
+        }
+    ],
+    "property-for-rent\/portions-floors": [
+        {
+            "key": "furnished",
+            "label": "Furnished",
+            "type": "radio",
+            "options": [
+                "Furnished",
+                "Unfurnished"
+            ]
+        },
+        {
+            "key": "bedrooms",
+            "label": "Bedrooms",
+            "type": "select",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5+"
+            ]
+        },
+        {
+            "key": "bathrooms",
+            "label": "Bathrooms",
+            "type": "select",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5+"
+            ]
+        },
+        {
+            "key": "floor_level",
+            "label": "Floor Level",
+            "type": "select",
+            "options": [
+                "Upper Portion",
+                "Lower Portion",
+                "Basement"
+            ]
+        },
+        {
+            "key": "area_unit",
+            "label": "Area Unit",
+            "type": "select",
+            "options": [
+                "Marla",
+                "Kanal",
+                "Sq. Feet",
+                "Sq. Yards"
+            ]
+        },
+        {
+            "key": "area",
+            "label": "Area",
+            "type": "number"
+        },
+        {
+            "key": "features",
+            "label": "Features",
+            "type": "checkbox",
+            "options": [
+                "Separate Meters",
+                "Water Bore",
+                "Gated Street"
+            ]
+        }
+    ],
+    "property-for-rent\/shops-offices-commercial-space": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Shop",
+                "Office Space",
+                "Commercial Plaza",
+                "Godown \/ Warehouse"
+            ]
+        },
+        {
+            "key": "bathrooms",
+            "label": "Bathrooms",
+            "type": "select",
+            "options": [
+                "None",
+                "1",
+                "2",
+                "3",
+                "Shared"
+            ]
+        },
+        {
+            "key": "floor_level",
+            "label": "Floor Level",
+            "type": "select",
+            "options": [
+                "Basement",
+                "Ground Floor",
+                "1st Floor",
+                "2nd Floor",
+                "3rd Floor & Above"
+            ]
+        },
+        {
+            "key": "area_unit",
+            "label": "Area Unit",
+            "type": "select",
+            "options": [
+                "Marla",
+                "Kanal",
+                "Sq. Feet",
+                "Sq. Yards"
+            ]
+        },
+        {
+            "key": "area",
+            "label": "Area",
+            "type": "number"
+        },
+        {
+            "key": "features",
+            "label": "Features",
+            "type": "checkbox",
+            "options": [
+                "Commercial Meter",
+                "Main Road Facing",
+                "Parking"
+            ]
+        }
+    ],
+    "property-for-rent\/roommates-paying-guests": [
+        {
+            "key": "furnished",
+            "label": "Furnished",
+            "type": "radio",
+            "options": [
+                "Furnished",
+                "Unfurnished"
+            ]
+        }
+    ],
+    "property-for-rent\/vacation-rentals-guest-houses": [
+        {
+            "key": "bedrooms",
+            "label": "Bedrooms",
+            "type": "select",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5+"
+            ]
+        }
+    ],
+    "property-for-rent\/land-plots": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Agricultural Land",
+                "Commercial Plot",
+                "Open Yard"
+            ]
+        },
+        {
+            "key": "area_unit",
+            "label": "Area Unit",
+            "type": "select",
+            "options": [
+                "Marla",
+                "Kanal",
+                "Sq. Feet",
+                "Sq. Yards",
+                "Acre"
+            ]
+        },
+        {
+            "key": "area",
+            "label": "Area",
+            "type": "number"
+        },
+        {
+            "key": "features",
+            "label": "Features",
+            "type": "checkbox",
+            "options": [
+                "Fenced",
+                "Water Available",
+                "Electricity Tube Well"
+            ]
+        }
+    ],
+    "property-for-rent\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "area_unit",
+            "label": "Area Unit",
+            "type": "select",
+            "options": [
+                "Marla",
+                "Kanal",
+                "Sq. Feet",
+                "Sq. Yards"
+            ]
+        },
+        {
+            "key": "area",
+            "label": "Area",
+            "type": "number"
+        }
+    ],
+    "job-post\/*": [
+        {
+            "key": "hiring_person_company",
+            "label": "Hiring Person\/Company",
+            "type": "radio",
+            "options": [
+                "Hiring as Company",
+                "Hiring as Individual",
+                "Hiring as Third Party"
+            ]
+        },
+        {
+            "key": "company_name",
+            "label": "Company Name",
+            "type": "text"
+        },
+        {
+            "key": "type_of_ad",
+            "label": "Type of Ad",
+            "type": "radio",
+            "options": [
+                "Job Wanted",
+                "Job Offer"
+            ]
+        },
+        {
+            "key": "salary_from",
+            "label": "Salary From",
+            "type": "number"
+        },
+        {
+            "key": "salary_to",
+            "label": "Salary To",
+            "type": "number"
+        },
+        {
+            "key": "career_level",
+            "label": "Career Level",
+            "type": "select",
+            "options": [
+                "Intern \/ Student",
+                "Entry Level",
+                "Associate",
+                "Mid-Senior Level",
+                "Director \/ Executive"
+            ]
+        },
+        {
+            "key": "salary_period",
+            "label": "Salary Period",
+            "type": "select",
+            "options": [
+                "Hourly",
+                "Daily",
+                "Weekly",
+                "Monthly",
+                "Yearly"
+            ]
+        },
+        {
+            "key": "position_type",
+            "label": "Position Type",
+            "type": "select",
+            "options": [
+                "Full-time",
+                "Part-time",
+                "Contract",
+                "Temporary"
+            ]
+        }
+    ],
+    "mobiles\/mobile-phones": [
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "select",
+            "options": [
+                "Apple",
+                "Samsung",
+                "Xiaomi",
+                "Vivo",
+                "Oppo",
+                "Infinix",
+                "Tecno",
+                "Realme",
+                "Google",
+                "OnePlus",
+                "Other"
+            ]
+        },
+        {
+            "key": "model",
+            "label": "Model",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used",
+                "Open Box",
+                "Refurbished",
+                "For Parts"
+            ]
+        },
+        {
+            "key": "pta_status",
+            "label": "PTA Status",
+            "type": "radio",
+            "options": [
+                "PTA Approved",
+                "Non-PTA"
+            ]
+        }
+    ],
+    "mobiles\/tablets": [
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "select",
+            "options": [
+                "Apple",
+                "Samsung",
+                "Lenovo",
+                "Huawei",
+                "Amazon",
+                "Other"
+            ]
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used",
+                "Open Box",
+                "For Parts"
+            ]
+        }
+    ],
+    "mobiles\/smart-watches": [
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "select",
+            "options": [
+                "Apple",
+                "Samsung",
+                "Xiaomi",
+                "Huawei",
+                "Amazfit",
+                "Generic"
+            ]
+        }
+    ],
+    "mobiles\/other-wearables": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Fitness Band",
+                "VR Headset",
+                "Smart Glasses"
+            ]
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "mobiles\/landline-phones": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Corded Phone",
+                "Cordless Phone",
+                "Wireless GSM Phone"
+            ]
+        }
+    ],
+    "mobiles\/mobile-numbers": [
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "radio",
+            "options": [
+                "New",
+                "Active"
+            ]
+        }
+    ],
+    "mobiles\/accessories\/chargers": [
+        {
+            "key": "device_type",
+            "label": "Device Type",
+            "type": "select",
+            "options": [
+                "Android \/ Type-C",
+                "iPhone \/ Lightning",
+                "Micro-USB",
+                "Wireless Charger"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "mobiles\/accessories\/mobile-stands": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Desk Stand",
+                "Ring Holder",
+                "Car Mount \/ Holder",
+                "Tripod Mount",
+                "Other"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "mobiles\/accessories\/headphones": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Over-Ear",
+                "On-Ear",
+                "Gaming Headset"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "mobiles\/accessories\/earphones": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Wired",
+                "Wireless \/ Bluetooth \/ TWS"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "mobiles\/accessories\/converters-adapters": [
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "mobiles\/accessories\/ring-lights": [
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "mobiles\/accessories\/selfie-sticks": [
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "mobiles\/accessories\/power-banks": [
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "mobiles\/accessories\/external-memory": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "MicroSD Card",
+                "OTG Flash Drive",
+                "External SSD"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "mobiles\/accessories\/keyboards": [
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "mobiles\/accessories\/smartphone-lenses": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Macro Lens",
+                "Wide Angle",
+                "Telephoto",
+                "Fisheye"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "mobiles\/accessories\/stylus-pens": [
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "mobiles\/accessories\/app-enabled-gadgets": [
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "mobiles\/accessories\/screens-protectors": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Mobile Screen Protector",
+                "Tablet Glass",
+                "Smartwatch Screen Protector"
+            ]
+        }
+    ],
+    "mobiles\/accessories\/*": [
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/laptops": [
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "select",
+            "options": [
+                "Apple \/ MacBook",
+                "Dell",
+                "HP",
+                "Lenovo",
+                "Asus",
+                "Acer",
+                "Toshiba",
+                "MSI",
+                "Other"
+            ]
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "Brand New",
+                "Open Box",
+                "Used",
+                "Refurbished",
+                "For Parts"
+            ]
+        },
+        {
+            "key": "processor_type",
+            "label": "Processor Type",
+            "type": "select",
+            "options": [
+                "Intel Core i3",
+                "Intel Core i5",
+                "Intel Core i7",
+                "Intel Core i9",
+                "AMD Ryzen 3",
+                "AMD Ryzen 5",
+                "AMD Ryzen 7",
+                "AMD Ryzen 9",
+                "Apple M1\/M2\/M3",
+                "Other"
+            ]
+        },
+        {
+            "key": "processor_generation",
+            "label": "Processor Generation",
+            "type": "select",
+            "options": [
+                "6th Gen",
+                "7th Gen",
+                "8th Gen",
+                "9th Gen",
+                "10th Gen",
+                "11th Gen",
+                "12th Gen",
+                "13th Gen",
+                "14th Gen",
+                "Core Ultra",
+                "Not Applicable"
+            ]
+        },
+        {
+            "key": "ram",
+            "label": "RAM",
+            "type": "select",
+            "options": [
+                "4 GB",
+                "8 GB",
+                "16 GB",
+                "32 GB",
+                "64 GB"
+            ]
+        },
+        {
+            "key": "storage_type",
+            "label": "Storage Type",
+            "type": "select",
+            "options": [
+                "SSD",
+                "HDD",
+                "Dual Drive SSD + HDD"
+            ]
+        },
+        {
+            "key": "storage_capacity",
+            "label": "Storage Capacity",
+            "type": "select",
+            "options": [
+                "128 GB",
+                "256 GB",
+                "512 GB",
+                "1 TB",
+                "2 TB"
+            ]
+        },
+        {
+            "key": "screen_size",
+            "label": "Screen Size",
+            "type": "select",
+            "options": [
+                "11 - 12 Inch",
+                "13 - 13.9 Inch",
+                "14 Inch",
+                "15 - 15.6 Inch",
+                "16 - 17.3 Inch"
+            ]
+        },
+        {
+            "key": "dedicated_graphic_card",
+            "label": "Dedicated Graphic Card",
+            "type": "radio",
+            "options": [
+                "Integrated \/ Shared",
+                "Dedicated NVIDIA \/ AMD"
+            ]
+        }
+    ],
+    "electronics\/computer-accessories\/computers-desktops": [
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "select",
+            "options": [
+                "Dell",
+                "HP",
+                "Lenovo",
+                "Custom Built \/ Gaming PC",
+                "Apple iMac \/ Mac Mini",
+                "Other"
+            ]
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "Brand New",
+                "Used",
+                "Refurbished"
+            ]
+        },
+        {
+            "key": "processor",
+            "label": "Processor",
+            "type": "select",
+            "options": [
+                "Core 2 Duo",
+                "Core i3",
+                "Core i5",
+                "Core i7",
+                "Core i9",
+                "Ryzen 3",
+                "Ryzen 5",
+                "Ryzen 7",
+                "Xeon"
+            ]
+        },
+        {
+            "key": "ram",
+            "label": "RAM",
+            "type": "select",
+            "options": [
+                "4 GB",
+                "8 GB",
+                "16 GB",
+                "32 GB",
+                "64 GB+"
+            ]
+        },
+        {
+            "key": "storage_drive",
+            "label": "Storage Drive",
+            "type": "select",
+            "options": [
+                "128 GB SSD",
+                "256 GB SSD",
+                "512 GB SSD",
+                "1 TB SSD",
+                "500 GB HDD",
+                "1 TB HDD"
+            ]
+        },
+        {
+            "key": "graphic_card",
+            "label": "Graphic Card (GPU)",
+            "type": "select",
+            "options": [
+                "On-Board \/ Integrated",
+                "2 GB",
+                "4 GB",
+                "6 GB",
+                "8 GB",
+                "12 GB",
+                "16 GB+"
+            ]
+        }
+    ],
+    "electronics\/computer-accessories\/monitors-lcds": [
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "select",
+            "options": [
+                "Dell",
+                "HP",
+                "Samsung",
+                "LG",
+                "AOC",
+                "ViewSonic",
+                "Asus",
+                "Acer",
+                "Other"
+            ]
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "Brand New",
+                "Used"
+            ]
+        },
+        {
+            "key": "screen_size",
+            "label": "Screen Size",
+            "type": "select",
+            "options": [
+                "17 - 19 Inch",
+                "20 - 22 Inch",
+                "24 Inch",
+                "27 Inch",
+                "32 Inch",
+                "34+ UltraWide"
+            ]
+        },
+        {
+            "key": "display_type",
+            "label": "Display Type",
+            "type": "select",
+            "options": [
+                "IPS",
+                "VA",
+                "TN",
+                "OLED",
+                "Curved"
+            ]
+        },
+        {
+            "key": "refresh_rate",
+            "label": "Refresh Rate",
+            "type": "select",
+            "options": [
+                "60 Hz",
+                "75 Hz",
+                "144 Hz",
+                "165 Hz",
+                "240 Hz+"
+            ]
+        }
+    ],
+    "electronics\/computer-accessories\/keyboards-mice": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Mechanical Keyboard",
+                "Membrane Keyboard",
+                "Gaming Mouse",
+                "Office Mouse",
+                "Combo Set"
+            ]
+        },
+        {
+            "key": "connectivity",
+            "label": "Connectivity",
+            "type": "select",
+            "options": [
+                "Wired USB",
+                "Wireless 2.4GHz",
+                "Bluetooth",
+                "Dual Mode"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/computer-accessories\/printers-scanners": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "LaserJet Printer",
+                "Inkjet Printer",
+                "All-in-One Multi-Function",
+                "Barcode \/ Thermal Printer",
+                "Flatbed Scanner"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "select",
+            "options": [
+                "HP",
+                "Canon",
+                "Epson",
+                "Brother",
+                "Samsung",
+                "Other"
+            ]
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "Brand New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/computer-accessories\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/television-and-accessories\/television": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Smart LED TV",
+                "Android TV",
+                "OLED \/ QLED TV",
+                "Standard LED",
+                "CRT \/ Box TV"
+            ]
+        },
+        {
+            "key": "screen_size",
+            "label": "Screen Size",
+            "type": "select",
+            "options": [
+                "24 Inch",
+                "32 Inch",
+                "40 - 43 Inch",
+                "50 - 55 Inch",
+                "65 Inch",
+                "75 Inch & Above"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "select",
+            "options": [
+                "Samsung",
+                "Sony",
+                "LG",
+                "TCL",
+                "Orient",
+                "EcoStar",
+                "Haier",
+                "Hisense",
+                "Changhong Ruba",
+                "Other"
+            ]
+        },
+        {
+            "key": "resolution",
+            "label": "Resolution",
+            "type": "select",
+            "options": [
+                "HD Ready",
+                "Full HD 1080p",
+                "4K UHD",
+                "8K"
+            ]
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/television-and-accessories\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Android TV Box",
+                "Fire TV Stick",
+                "Soundbar",
+                "TV Wall Mount",
+                "Remote Control",
+                "Receiver & Dish Antenna"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/ac-coolers\/air-conditioners": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Inverter Wall Split",
+                "Non-Inverter Split",
+                "Floor Standing \/ Cabinet",
+                "Window AC",
+                "Portable AC"
+            ]
+        },
+        {
+            "key": "capacity_ton",
+            "label": "Capacity (Ton)",
+            "type": "select",
+            "options": [
+                "1 Ton",
+                "1.5 Ton",
+                "2 Ton",
+                "4 Ton"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "select",
+            "options": [
+                "Gree",
+                "Haier",
+                "Dawlance",
+                "Kenwood",
+                "Pel",
+                "Orient",
+                "Changhong Ruba",
+                "Mitsubishi",
+                "LG"
+            ]
+        },
+        {
+            "key": "energy_efficiency",
+            "label": "Energy Efficiency",
+            "type": "radio",
+            "options": [
+                "T3 Tropical Inverter",
+                "Standard Inverter",
+                "Non-Inverter"
+            ]
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/ac-coolers\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Plastic Body Desert Cooler",
+                "Metal Body Room Cooler",
+                "Personal Mini Cooler"
+            ]
+        },
+        {
+            "key": "cooling_media",
+            "label": "Cooling Media",
+            "type": "radio",
+            "options": [
+                "Honeycomb Pads",
+                "Wood Wool \/ Khus"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/refrigerators-and-freezers\/refrigerators": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Top Mount Double Door",
+                "Single Door",
+                "Side-by-Side",
+                "French Door"
+            ]
+        },
+        {
+            "key": "inverter_technology",
+            "label": "Inverter Technology",
+            "type": "radio",
+            "options": [
+                "Yes \/ Inverter",
+                "No \/ Non-Inverter"
+            ]
+        },
+        {
+            "key": "size_capacity",
+            "label": "Size \/ Capacity",
+            "type": "select",
+            "options": [
+                "Small \/ Compact",
+                "Medium (10-14 cu ft)",
+                "Large (15-18 cu ft)",
+                "Extra Large (19+ cu ft)"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "select",
+            "options": [
+                "Dawlance",
+                "Haier",
+                "Pel",
+                "Waves",
+                "Orient",
+                "Samsung",
+                "LG",
+                "Electrolux"
+            ]
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/refrigerators-and-freezers\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Single Door Chest Freezer",
+                "Double Door Chest Freezer",
+                "Upright \/ Vertical Standing Freezer"
+            ]
+        },
+        {
+            "key": "inverter_technology",
+            "label": "Inverter Technology",
+            "type": "radio",
+            "options": [
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/games-entertainment\/gaming-consoles": [
+        {
+            "key": "platform_console",
+            "label": "Platform \/ Console",
+            "type": "select",
+            "options": [
+                "PlayStation 5",
+                "PlayStation 4",
+                "PlayStation 3",
+                "Xbox Series X",
+                "Xbox Series S",
+                "Xbox One",
+                "Xbox 360",
+                "Nintendo Switch"
+            ]
+        },
+        {
+            "key": "edition",
+            "label": "Edition",
+            "type": "select",
+            "options": [
+                "Disc Edition",
+                "Digital Edition",
+                "Slim",
+                "Pro \/ Fat"
+            ]
+        },
+        {
+            "key": "storage",
+            "label": "Storage",
+            "type": "select",
+            "options": [
+                "500 GB",
+                "825 GB",
+                "1 TB",
+                "2 TB"
+            ]
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "Brand New",
+                "Used",
+                "Jailbroken \/ Soft-modded"
+            ]
+        }
+    ],
+    "electronics\/games-entertainment\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Controllers \/ Gamepads",
+                "Gaming Headsets",
+                "VR Headsets",
+                "Steering Wheels & Pedals",
+                "Charging Docks"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/kitchen-appliances\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Juicer Blender 3-in-1",
+                "Hand Blender",
+                "Food Processor",
+                "Citrus Juicer",
+                "Meat Mincer",
+                "Digital Air Fryer",
+                "Manual Air Fryer",
+                "Deep Fat Fryer",
+                "Glass Top Gas Stove",
+                "Stainless Steel Cooking Range",
+                "Induction Cooker",
+                "Kitchen Exhaust Hood"
+            ]
+        },
+        {
+            "key": "capacity",
+            "label": "Capacity",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/microwaves-ovens\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Solo \/ Reheat",
+                "Grill Microwave",
+                "Convection \/ Baking Microwave",
+                "Electric Oven Toaster Grill",
+                "Built-in Gas Oven",
+                "Commercial Pizza Oven"
+            ]
+        },
+        {
+            "key": "capacity_litres",
+            "label": "Capacity (Litres)",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/washing-machines-dryer\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Fully Automatic Top Load",
+                "Fully Automatic Front Load",
+                "Twin Tub Semi-Automatic",
+                "Single Tub Spinner \/ Washer",
+                "Spin Dryer Machine",
+                "Tumble Dryer \/ Hot Air Dryer"
+            ]
+        },
+        {
+            "key": "capacity_kg",
+            "label": "Capacity (KG)",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "inverter_motor",
+            "label": "Inverter Motor",
+            "type": "radio",
+            "options": [
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/cameras-accessories\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "DSLR",
+                "Mirrorless",
+                "Compact Point & Shoot",
+                "Action Camera \/ GoPro",
+                "Camcorder",
+                "Gimbal \/ Stabilizer",
+                "Tripod \/ Monopod",
+                "Speedlite Flash",
+                "Studio Lighting",
+                "Camera Bag \/ Backpack",
+                "Microphones"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "resolution",
+            "label": "Resolution (MP)",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/generations-ups-power-solutions\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "fuel_type",
+            "label": "Fuel Type",
+            "type": "select",
+            "options": [
+                "Petrol",
+                "Gas",
+                "Dual Fuel Petrol\/Gas",
+                "Diesel"
+            ]
+        },
+        {
+            "key": "capacity",
+            "label": "Capacity",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/fans\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Ceiling Fan",
+                "Pedestal \/ Standing Fan",
+                "Wall Bracket Fan",
+                "Mist Fan",
+                "Rechargeable AC\/DC Fan"
+            ]
+        },
+        {
+            "key": "motor_type",
+            "label": "Motor Type",
+            "type": "radio",
+            "options": [
+                "DC Inverter \/ 12V Solar",
+                "Standard AC 220V"
+            ]
+        },
+        {
+            "key": "blade_sweep_size",
+            "label": "Blade Sweep Size",
+            "type": "select",
+            "options": [
+                "56 Inch",
+                "48 Inch",
+                "36 Inch"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/video-audios\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Trolley Party Speaker",
+                "Bluetooth Portable Speaker",
+                "2.1 \/ 5.1 Home Theater",
+                "Soundbar with Subwoofer",
+                "Multimedia Smart LED Projector",
+                "Portable Mini Projector",
+                "Blu-Ray \/ DVD Player"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/heaters-geysers\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Natural Gas Ceramic Heater",
+                "Halogen \/ Quartz Electric",
+                "Fan Heater",
+                "Oil-Filled Radiator",
+                "Instant Gas Geyser",
+                "Storage Gas Geyser",
+                "Electric Instant",
+                "Electric Storage",
+                "Hybrid Gas & Electric"
+            ]
+        },
+        {
+            "key": "capacity",
+            "label": "Capacity (Litres \/ Gallons)",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/tools-diy-equipments\/*": [
+        {
+            "key": "tool_type",
+            "label": "Tool Type",
+            "type": "select",
+            "options": [
+                "Drill Machine",
+                "Impact Wrench",
+                "Angle Grinder",
+                "Circular Saw",
+                "Welding Inverter Machine",
+                "Heat Gun",
+                "Complete Toolkit Set",
+                "Socket Set",
+                "Spanners \/ Wrenches",
+                "Screwdriver Kit",
+                "Soldering Iron & Multi-meter"
+            ]
+        },
+        {
+            "key": "power_source",
+            "label": "Power Source",
+            "type": "radio",
+            "options": [
+                "Corded Electric 220V",
+                "Cordless \/ Battery Operated"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/sewing-machines": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Manual Hand \/ Foot Machine",
+                "Domestic Electric Machine",
+                "Industrial Lockstitch",
+                "Overlock \/ Pico Machine",
+                "Computerized Embroidery"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "select",
+            "options": [
+                "Singer",
+                "Brother",
+                "Juki",
+                "Salika",
+                "Janome",
+                "Jack"
+            ]
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "electronics\/other-home-appliances\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Drum \/ Canister Heavy Duty",
+                "Handheld Cordless",
+                "Robot Vacuum",
+                "Wet & Dry Cleaner",
+                "Dry Heavy Iron",
+                "Steam Iron",
+                "Standing Garment Steamer"
+            ]
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        }
+    ],
+    "electronics\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        },
+        {
+            "key": "brand",
+            "label": "Brand",
+            "type": "text"
+        },
+        {
+            "key": "condition",
+            "label": "Condition",
+            "type": "select",
+            "options": [
+                "New",
+                "Used"
+            ]
+        }
+    ],
+    "services\/catering-restaurant": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Catering",
+                "Cooked Food",
+                "Others"
+            ]
+        }
+    ],
+    "services\/construction-services": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Architects & Engineers",
+                "Building Contractors",
+                "Interior Design & Decor",
+                "Painters & Polishers",
+                "Water Proofing & Seepage",
+                "Plumber & Electrician",
+                "Other Construction Services"
+            ]
+        }
+    ],
+    "services\/tuitions-academies": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "School & College Tuition",
+                "Home Tutors",
+                "Online Tutors",
+                "Quran Classes & Islamic Academies",
+                "Language Classes & IELTS",
+                "Entry Test Preparation",
+                "Computer & Coding Courses",
+                "Music & Arts"
+            ]
+        }
+    ],
+    "services\/electronics-computer-repair": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "AC & Refrigerator Repair",
+                "Computer & Laptop Repair",
+                "Mobile Phone Repair",
+                "LED TV & Audio Repair",
+                "Generator & UPS Repair",
+                "Washing Machine Repair",
+                "Printer & Photocopier Repair",
+                "Other Appliance Repair"
+            ]
+        }
+    ],
+    "services\/event-services": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Wedding Planners & Decor",
+                "Catering & Crockery",
+                "Photography & Videography",
+                "DJ Sound & Lighting",
+                "Stage & Canopy \/ Tent Services",
+                "Bridal Entry Arrangements",
+                "Birthday & Corporate Event Management"
+            ]
+        }
+    ],
+    "services\/farm-fresh-food": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Fresh Dairy & Milk",
+                "Farm Fresh Fruits & Vegetables",
+                "Desi Ghee & Organic Honey",
+                "Live Poultry & Meat",
+                "Frozen & Preserved Food",
+                "Grains & Pulses",
+                "Animal Feed & Hay"
+            ]
+        }
+    ],
+    "services\/movers-packers": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "House Shifting",
+                "Office Relocation",
+                "Goods Transport & Cargo",
+                "Packing & Unpacking Services",
+                "Truck & Shehzore Rental",
+                "Intercity Moving"
+            ]
+        }
+    ],
+    "services\/travel-visa": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "select",
+            "options": [
+                "Visit Visa Consultancy",
+                "Hajj & Umrah Packages",
+                "Air Ticket Booking",
+                "Study Abroad \/ Student Visa",
+                "Tour & Holiday Packages",
+                "Hotel Booking & Transport"
+            ]
+        }
+    ],
+    "services\/health-beauty": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "radio",
+            "options": [
+                "Male",
+                "Female",
+                "Both"
+            ]
+        }
+    ],
+    "services\/drivers-taxi": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "radio",
+            "options": [
+                "Male",
+                "Female",
+                "Both"
+            ]
+        }
+    ],
+    "services\/drivers-taxi-carpool": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "radio",
+            "options": [
+                "Male",
+                "Female",
+                "Both"
+            ]
+        }
+    ],
+    "services\/*": [
+        {
+            "key": "type",
+            "label": "Type",
+            "type": "text"
+        }
+    ]
+}
+;
